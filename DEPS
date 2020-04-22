@@ -177,7 +177,7 @@ deps = {
   'src/tools/swarming_client':
    Var('chromium_git') + '/external/swarming.client.git' + '@' +  Var('swarming_revision'),
 
-  'src/v8': 'https://github.com/nwjs/v8.git@origin/nw12',
+  'src/v8': 'https://github.com/nwjs/v8.git@origin/nw12-v0.12.3',
 
   'src/native_client':
    Var('chromium_git') + '/native_client/src/native_client.git' + '@' + Var('nacl_revision'),
